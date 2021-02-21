@@ -4,6 +4,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
 main {
 font-family: "Heebo", sans-serif;
 }
@@ -13,6 +14,7 @@ min-height: 100vh;
 background: url("./me.jpg");
 background-size: cover;
 padding: 0rem 5rem;
+height: 300px;
 }
 
 nav {
@@ -23,19 +25,18 @@ min-height: 10vh;
 }
 
 .nav-links {
-color:rgb(41, 37, 37);
 display: flex;
 list-style: none;
 }
 
 .nav-links li {
-color:rgb(41, 37, 37);
 padding-left: 10rem;
 font-size: 1.2rem;
 }
 
 a {
 text-decoration: none;
+color:rgb(41, 37, 37);
 }
 
 #logo {
